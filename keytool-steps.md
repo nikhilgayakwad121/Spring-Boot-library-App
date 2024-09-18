@@ -53,13 +53,13 @@ This document includes instructions for generating a key and self-signed certifi
     Certificate[1]:
     Owner: C=IN, ST=Karnataka, L=Bangalore, O=Bookbuddy, OU=LibraryApp Backend, CN=localhost
     Issuer: C=IN, ST=Karnataka, L=Bangalore, O=Bookbuddy, OU=LibraryApp Backend, CN=localhost
-    Serial number: ba51e9be8f54b95f
+    Serial number: xxx
     Valid from: Tue Sep 17 12:11:40 IST 2024 until: Wed Sep 17 12:11:40 IST 2025
     Certificate fingerprints:
-    SHA1: 14:37:76:E6:29:6B:33:3E:D3:5E:90:6F:CE:48:92:3F:FB:A0:8D:07
-    SHA256: D2:F6:FC:46:50:00:7C:55:21:77:E2:73:D8:05:59:73:90:86:13:E2:D2:58:CA:C4:0B:EE:CC:1D:C1:F2:6D:72
-    Signature algorithm name: SHA256withRSA
-    Subject Public Key Algorithm: 2048-bit RSA key
+    SHA1: xxx
+    SHA256: xxx
+    Signature algorithm name: xxx
+    Subject Public Key Algorithm:xxx
     Version: 3
 
 Extensions:
@@ -95,13 +95,13 @@ KeyIdentifier [
     # Enable HTTPS support (only accept HTTPS requests)
     server.ssl.enabled=true
     # Alias that identifies the key in the key store
-    server.ssl.key-alias=luv2code
+    server.ssl.key-alias=xxx
     # Keystore location
     server.ssl.key-store=classpath:luv2code-keystore.p12
     # Keystore password
-    server.ssl.key-store-password=secret
+    server.ssl.key-store-password=xxx
     # Keystore format
-    server.ssl.key-store-type=PKCS12
+    server.ssl.key-store-type=xxx
     ```
 
 Congrats! You have successfully configured your Spring Boot project to use a self-signed certificate for https. You can now return to the videos and continue with the course.
